@@ -17,9 +17,10 @@ class EasyDict(dict):
 
 #----------------------------------------------------------------------------
 # Paths.
+import os
 
-data_dir = '~/data/cityscape1024_tfr'
-result_dir = '~/data/results'
+data_dir = os.path.expanduser('~/data/cityscape1024_tfr')
+result_dir = os.path.expanduser('~/data/results')
 
 #----------------------------------------------------------------------------
 # TensorFlow options.
