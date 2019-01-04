@@ -19,8 +19,8 @@ class EasyDict(dict):
 # Paths.
 import os
 
-data_dir = os.path.expanduser('~/data/cityscape1024_tfr')
-result_dir = os.path.expanduser('~/data/results')
+data_dir = os.path.expanduser(r'~/data/GANGoghData/landscapeTFR')
+result_dir = os.path.expanduser(r'~/data/results/ProgGAN_results')
 
 #----------------------------------------------------------------------------
 # TensorFlow options.
